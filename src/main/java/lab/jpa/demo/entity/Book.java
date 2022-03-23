@@ -55,5 +55,10 @@ import javax.persistence.Table;
 			this.price = price;
 		}
 		
+		@Override
+		public String toString() {
+			return "Book [isbn=" + isbn + ", title=" + title + ", price=" + price + "]";
+		}
+		
 		
 }
